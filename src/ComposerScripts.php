@@ -39,7 +39,7 @@ class ComposerScripts
     {
         self::extractTo(
             dirname(__FILE__) . DIRECTORY_SEPARATOR . 'Files' . DIRECTORY_SEPARATOR . 'app.zip',
-            dirname(__FILE__, 3) . DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPARATOR
+            dirname(__FILE__, 5) . DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPARATOR
         );
     }
 
@@ -47,15 +47,15 @@ class ComposerScripts
     {
         self::extractTo(
             dirname(__FILE__) . DIRECTORY_SEPARATOR . 'Files' . DIRECTORY_SEPARATOR . 'root_files.zip',
-            dirname(__FILE__, 3) . DIRECTORY_SEPARATOR
+            dirname(__FILE__, 5) . DIRECTORY_SEPARATOR
         );
     }
 
     private static function unzipMty95Framework(): void
     {
         self::extractTo(
-            dirname(__FILE__, 3) . DIRECTORY_SEPARATOR . 'mty95_framework.zip',
-            dirname(__FILE__, 3) . DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPARATOR . 'ThirdParty' . DIRECTORY_SEPARATOR
+            dirname(__FILE__, 5) . DIRECTORY_SEPARATOR . 'mty95_framework.zip',
+            dirname(__FILE__, 5) . DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPARATOR . 'ThirdParty' . DIRECTORY_SEPARATOR
         );
     }
 
@@ -63,7 +63,7 @@ class ComposerScripts
     {
         self::extractTo(
             dirname(__FILE__) . DIRECTORY_SEPARATOR . 'Files' . DIRECTORY_SEPARATOR . 'public_files.zip',
-            dirname(__FILE__, 3) . DIRECTORY_SEPARATOR . 'public' . DIRECTORY_SEPARATOR
+            dirname(__FILE__, 5) . DIRECTORY_SEPARATOR . 'public' . DIRECTORY_SEPARATOR
         );
     }
 
