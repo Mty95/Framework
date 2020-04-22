@@ -1,4 +1,6 @@
 {
+  "name": "mty95/framework",
+  "description": "A Micro Framework for CodeIgniter 3",
   "require": {
     "php": ">=7.4",
     "ext-json": "*",
