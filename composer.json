@@ -20,5 +20,10 @@
     "twig/twig": "^3.0",
     "nikic/php-parser": "^4.4",
     "filp/whoops": "^2.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mty95\\Framework\\": "src"
+    }
   }
 }
